@@ -34,22 +34,22 @@ public class Createlead {
 // ENTER COMPANY NAME FIELD USING ID LOCATOR
 		driver.findElement(By.id(" createLeadForm_companyName")).sendKeys("selenium");
 		// ENTER FIRST NAME FIELD USING ID LOCATOR
-		driver.findElement(By.id(" createLeadForm_firstName")).sendKeys("nithya");
+		driver.findElement(By.id(" createLeadForm_firstName")).sendKeys("mohana");
 		// ENTER LASTNAMEFIELD USING ID LOCATOR
 
-		driver.findElement(By.id("createLeadForm_lastName ")).sendKeys("chidambaram");
+		driver.findElement(By.id("createLeadForm_lastName ")).sendKeys("rangam");
 		// ENTER FIRSTNAME LOCAL FIELD USING ID LOCATOR
 
-		driver.findElement(By.id("createLeadForm_firstNameLocal ")).sendKeys("Elsa");
+		driver.findElement(By.id("createLeadForm_firstNameLocal ")).sendKeys("Raja");
 		// ENTER DEPARTMENT NAMEFIELD USING ID LOCATOR
 
-		driver.findElement(By.id("createLeadForm_departmentName ")).sendKeys("Computer");
+		driver.findElement(By.id("createLeadForm_departmentName ")).sendKeys("IT");
 		// ENTER DESCRIPTION FIELD USING ID LOCATOR
 
 		driver.findElement(By.id("createLeadForm_description ")).sendKeys("this is a useful department");
 		// ENTER EMAIL FIELD USING ID LOCATOR
 
-		driver.findElement(By.id("createLeadForm_primaryEmail ")).sendKeys("smile @gmail.com");
+		driver.findElement(By.id("createLeadForm_primaryEmail ")).sendKeys("mohan@gmail.com");
 
 		// SELECT STATE/PROVINCE USING VISIBLE TEXT
 		WebElement statedropdown = driver.findElement(By.id("createLeadForm_generalStateProvinceGeoId"));
